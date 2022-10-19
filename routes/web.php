@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hey', function(){
-    return 'Hello world from laravel!';
+Route::get('/test', function(){
+    return view('test');
 });
 
 Route::get('/posts/{id}', function($id){
