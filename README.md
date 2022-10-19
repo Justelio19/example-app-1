@@ -13,3 +13,19 @@ galimybė pradėti testą iš naujo
 baigus testą leidžia išsaugoti rezultatą, įvesti vardą
 baigus testą gaunama nuoroda per kurią galima peržiūrėti atsakytus klausimus
 Rezultatų lentelė. Nėra vartotojo paskyros, viskas "anonimiška". Administravimas nebūtinas
+
+
+
+#running the app first time:
+1. apt update
+2. docker-compose up
+
+#building the app:
+1. ./vendor/bin/sail build
+2. docker-compose up
+
+#running the app
+1. docker-compose up
+
+#stopping the app
+1. CTRL + C
